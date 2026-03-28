@@ -1,0 +1,6 @@
+{
+  "name": "crowdcast",
+  "version": "0.1.0",
+  "description": "Multi-agent social simulation for prediction and creative exploration. Zero external dependencies — runs entirely within Claude Code.",
+  "skills": ["crowdcast"]
+}
