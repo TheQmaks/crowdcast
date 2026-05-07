@@ -1,0 +1,22 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "crowdcast",
+  "version": "0.1.0",
+  "description": "Marketplace hosting Crowdcast — multi-agent social simulation as a Claude Code plugin.",
+  "owner": {
+    "name": "TheQmaks",
+    "url": "https://github.com/TheQmaks"
+  },
+  "plugins": [
+    {
+      "name": "crowdcast",
+      "source": ".",
+      "description": "Multi-agent social simulation for prediction and creative exploration. Zero external dependencies — runs entirely within Claude Code.",
+      "version": "0.1.0",
+      "category": "simulation",
+      "tags": ["multi-agent", "simulation", "prediction", "creative", "skill"],
+      "homepage": "https://github.com/TheQmaks/crowdcast",
+      "license": "MIT"
+    }
+  ]
+}

@@ -59,11 +59,13 @@ git clone https://github.com/TheQmaks/crowdcast.git
 ln -s $(pwd)/crowdcast ~/.claude/skills/crowdcast
 ```
 
-**Option C: Install as Claude Code plugin**
+**Option C: Install as Claude Code plugin (via marketplace)**
+
+This repo doubles as a single-plugin Claude Code marketplace. Add it once, then install:
 
 ```bash
-# If you have a marketplace that includes crowdcast:
-/plugin install crowdcast@<marketplace-name>
+/plugin marketplace add TheQmaks/crowdcast
+/plugin install crowdcast@crowdcast
 ```
 
 That's it. No `npm install`, no `pip install`, no Docker, no `.env` files.
